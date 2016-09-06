@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="89px" height="78px" viewBox="0 0 89 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 3 white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-3-white" transform="translate(-764.000000, -954.000000)">
+            <text id="The-Readers-" font-family="ProximaNova-Regular, Proxima Nova" font-size="14" font-weight="normal" line-spacing="18" letter-spacing="0.445454538" fill="#EAEAEA">
+                <tspan x="828.128182" y="986">The </tspan>
+                <tspan x="799.494364" y="1004">Readers </tspan>
+                <tspan x="806.552909" y="1022">Project  </tspan>
+            </text>
+            <g id="2nd" transform="translate(770.000000, 963.500000)">
+                <g id="Group-7" fill="#FFFFFF" opacity="0.5">
+                    <ellipse id="Oval-9" cx="18.0639185" cy="3.03174431" rx="3.01065308" ry="3.03174431"></ellipse>
+                    <ellipse id="Oval-9" cx="3.01065308" cy="3.03174431" rx="3.01065308" ry="3.03174431"></ellipse>
+                    <path d="M33.1171839,6.06348861 C31.4544461,6.06348861 30.1065308,4.70613045 30.1065308,3.03174431 C30.1065308,1.35735816 31.4544461,0 33.1171839,0 C34.7799217,0 36.127837,1.35735816 36.127837,3.03174431 C36.127837,4.70613045 34.7799217,6.06348861 33.1171839,6.06348861" id="Oval-9-Copy-3"></path>
+                    <ellipse id="Oval-9-Copy-8" cx="48.1704493" cy="3.03174431" rx="3.01065308" ry="3.03174431"></ellipse>
+                </g>
+                <g id="Group-7-Copy-3" transform="translate(0.000000, 45.476165)" fill="#FFFFFF" opacity="0.5">
+                    <ellipse id="Oval-9" cx="18.0639185" cy="3.03174431" rx="3.01065308" ry="3.03174431"></ellipse>
+                    <ellipse id="Oval-9" cx="3.01065308" cy="3.03174431" rx="3.01065308" ry="3.03174431"></ellipse>
+                </g>
+                <g id="Group-7-Copy" transform="translate(0.000000, 14.400785)">
+                    <ellipse id="Oval-9" fill="#FFFFFF" opacity="0.7" cx="18.0639185" cy="3.78968038" rx="3.01065308" ry="3.03174431"></ellipse>
+                    <ellipse id="Oval-9" fill="#FFFFFF" opacity="0.5" cx="3.01065308" cy="3.78968038" rx="3.01065308" ry="3.03174431"></ellipse>
+                    <path d="M33.1171839,6.82142469 C31.4544461,6.82142469 30.1065308,5.46406653 30.1065308,3.78968038 C30.1065308,2.11529424 31.4544461,0.757936077 33.1171839,0.757936077 C34.7799217,0.757936077 36.127837,2.11529424 36.127837,3.78968038 C36.127837,5.46406653 34.7799217,6.82142469 33.1171839,6.82142469" id="Oval-9-Copy-3" fill="#FFFFFF" opacity="0.85"></path>
+                    <ellipse id="Oval-9-Copy-8" fill="#DB4339" cx="48.1704493" cy="3.78968038" rx="3.76331635" ry="3.78968038"></ellipse>
+                </g>
+                <g id="Group-7-Copy-2" transform="translate(0.000000, 30.317443)" fill="#FFFFFF">
+                    <path d="M15.0532654,3.03174431 C15.0532654,1.35735816 16.4011807,0 18.0639185,0 C19.7266563,0 21.0745716,1.35735816 21.0745716,3.03174431 C21.0745716,4.70613045 19.7266563,6.06348861 18.0639185,6.06348861 C16.4011807,6.06348861 15.0532654,4.70613045 15.0532654,3.03174431 Z" id="Oval-9" opacity="0.85"></path>
+                    <ellipse id="Oval-9" opacity="0.95" cx="3.01065308" cy="3.03174431" rx="3.01065308" ry="3.03174431"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
