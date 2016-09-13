@@ -2,16 +2,14 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><html class="no-js"> <!--<![endif]-->
-
-<head>
+<!--[if gt IE 8]><html class="no-js"> <![endif]--><html lang="en"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Typographic Neighborhood</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-  <link rel="stylesheet" href="css/normalize.css">
+  
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="webfont/font.css">
   <script src="js/jquery-1.10.2.min.js"></script>
@@ -75,22 +73,17 @@
       </div>
       <div class="col-2-3 mobile-col-1-1">
           <div class="content"> 
-<h5>Perigrams in <i>The Readers Project</i></h5>
+            <h5>Perigrams in <i>The Readers Project</i></h5>
 
-<p>We have defined a <span class="term">Perigram</span> as the basic element in a special variety of word-based n-gram (or Markov chain). In a standard word-based n-gram all possible word combinations in a text may be considered and ranked for frequency. Here we define the perigrams for a given text to be a subset of these phrases that take <a href="neighborhood.html#neighborhood"><span class="term">typographic neighborhood</span></a> into account. Our current algorithm collects only those combinations of n-words that can be found within a 20-word reading window around any particular word in the text. This definition is intended to include the current selected word and all the words that might possibly be set, in standard prose typography, adjacently. An n-gram sequence composed of perigrams will contain probabilistically assembled phrases with a vocabulary constrained by the typographic neighborhood. It will, thus, contain language tending to be more sensitive to the context of the particular passage from which it is assembled.</p>
+            <p>We have defined a <span class="term">Perigram</span> as the basic element in a special variety of word-based n-gram (or Markov chain). In a standard word-based n-gram all possible word combinations in a text may be considered and ranked for frequency. Here we define the perigrams for a given text to be a subset of these phrases that take <a href="neighborhood.html#neighborhood"><span class="term">typographic neighborhood</span></a> into account. Our current algorithm collects only those combinations of n-words that can be found within a 20-word reading window around any particular word in the text. This definition is intended to include the current selected word and all the words that might possibly be set, in standard prose typography, adjacently. An n-gram sequence composed of perigrams will contain probabilistically assembled phrases with a vocabulary constrained by the typographic neighborhood. It will, thus, contain language tending to be more sensitive to the context of the particular passage from which it is assembled.</p>
 
-<p>Note that the preprocessed identification of perigrams for a text is carried out chiefly for reasons of efficiency. The frequencies of particular phrases are determined in advance rather than being searched in real-time. The extraction of perigrams means that considerably fewer word combinations need be considered and have data collected for them.</p>
- 
-
-
+            <p>Note that the preprocessed identification of perigrams for a text is carried out chiefly for reasons of efficiency. The frequencies of particular phrases are determined in advance rather than being searched in real-time. The extraction of perigrams means that considerably fewer word combinations need be considered and have data collected for them.</p>
+        </div>
       </div>
       <div class="col-1-3 mobile-col-1-1">
       </div>
   
     </div>
-
-
-  
 <!-- 
 End Site Content 
 -->
