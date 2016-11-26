@@ -808,7 +808,7 @@ body {
     font-size:14px;
 }
 
-.contentDot h5 span{
+.contentDot h5 span.download{
 border-bottom: 1px dotted #7f7f7f;
 }
 
