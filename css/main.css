@@ -799,6 +799,28 @@ body {
 /*.readersMenu>a:hover .readerBlock{
     opacity:1;
 }*/
+.subContent{
+      font-size:.9em;
+      line-height: 1.8em;
+}
+.contentDot h5{
+    margin-top:2em;
+    font-size:14px;
+}
+
+.contentDot h5 span.download{
+border-bottom: 1px dotted #7f7f7f;
+}
+
+.contentDot h5.readerDot:before {
+    width: 14px;
+    height: 14px;
+    -moz-border-radius: 14px;
+    -webkit-border-radius: 14px;
+    border-radius: 14px;
+    margin: 0 5px -2px 0;
+}
+
 h5.readerDot{
     letter-spacing: .12px;
 }
