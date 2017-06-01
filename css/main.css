@@ -998,6 +998,7 @@ img.greyborder{
     height:70px;
 }
 .menu{
+    min-width: 780px;
     display:none;
     float:left;
     position:absolute;
