@@ -94,6 +94,7 @@ a:hover{
 }
 
 .menu {
+    min-width: 780px;
     margin-left:auto;
     margin-right:auto;
     text-align:center;
@@ -998,7 +999,6 @@ img.greyborder{
     height:70px;
 }
 .menu{
-    min-width: 780px;
     display:none;
     float:left;
     position:absolute;
