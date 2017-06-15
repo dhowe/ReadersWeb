@@ -94,12 +94,12 @@ a:hover{
 }
 
 .menu {
+    list-style-type: none;
     min-width: 780px;
     margin-left:auto;
     margin-right:auto;
     text-align:center;
     padding:36px 1.2em 0 1.5em;
-
 }
 
 nav ul,
