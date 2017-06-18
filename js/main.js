@@ -3,6 +3,30 @@ var downX = 0;
 var downY = 0;
 var colW;
 
+$(function() {
+    var pre = $(".installContent").length > 0 ? "../" : "";
+    $("#header").load(pre + "header.html",function(){
+        if (pre.length > 0)
+            $.each($("#header a"), function(){
+             $(this).attr("href", pre + $(this).attr("href"));
+            });
+        var url = window.location.href,
+            pageIdx = url.lastIndexOf('/') + 1;
+        
+        url = url.lastIndexOf('#') > 0 ? url.slice(pageIdx, url.lastIndexOf('#')) : url.substr(pageIdx);
+        if (url.length === 0) url = "index.html";
+        $("#header a[href^='" + url + "']").addClass("current");
+        $("#header a[href^='" + pre + url + "']").addClass("current");
+
+        //position
+        if (window.location.hash) window.location.href = window.location.hash;
+
+    });
+
+
+    
+});
+
 $(window).resize(function () { 
 
     colW = $(".col-1-6").css("width");
@@ -12,7 +36,7 @@ $(window).resize(function () {
 
 $(document).scroll(function(){
 
-    if($(window).scrollTop() > 550){ 
+    if ($(window).scrollTop() > 550){ 
         colW = $(".col-1-6").css("width")
         $(".sideNav").css("width",colW);
         $(".sideNav").addClass("fix");
