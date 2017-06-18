@@ -94,6 +94,7 @@ a:hover{
 }
 
 .menu {
+    list-style-type: none;
     min-width: 780px;
     margin-left:auto;
     margin-right:auto;
@@ -718,7 +719,7 @@ body {
 }
 #sutp .installHeaderImage{
     background:url('../images/stwa_isea2015_withagun.jpg');
-    background-position: bottom 130px left 0px;
+    background-position: bottom -200px left 0px !important;
     background-size:cover;
 }
 #sutp img{
@@ -726,7 +727,7 @@ body {
 }
 #slof .installHeaderImage{
     background:url('../images/hk2013.jpg');
-    background-position: bottom 230px left 0px;
+    background-position: bottom 300px left 0px;
     background-size:cover;
 }
 #ct .installHeaderImage{
@@ -743,7 +744,7 @@ body {
 #pc .installHeaderImage{
     background:url('../images/PoeticCaption_Header.jpg');
     background-color: grey;
-    background-position: bottom 200px left 0px;
+    background-position: bottom -250px left 0px;
     background-size:cover;
 }
 #rfu .installHeaderImage{
@@ -753,7 +754,7 @@ body {
 }
 #pix .installHeaderImage{
     background:url('../images/pixreaders1.jpg');
-    background-position: bottom 200px left 0px;
+    background-position: bottom -200px left 0px;
     background-size:cover;
 }
 #navNor{
@@ -976,6 +977,12 @@ img.greyborder{
 
 }
 
+@media only screen and (min-height: 900px) {
+#installationNav {
+    min-height: 700px;
+}
+
+}
 /*Small Devices Tablet 768-992*/
 @media only screen and (max-width: 992px) {
 .content{
