@@ -3,6 +3,20 @@ var downX = 0;
 var downY = 0;
 var colW;
 
+$(function() {
+    var pre = $(".installContent").length > 0 ? "../" : "";
+    $("#header").load(pre + "header.html",function(){
+        if (pre.length > 0)
+            $.each($("#header a"), function(){
+             $(this).attr("href", pre + $(this).attr("href"));
+            });
+        if(window.location.hash) window.location.href = window.location.hash;
+    });
+
+
+    
+});
+
 $(window).resize(function () { 
 
     colW = $(".col-1-6").css("width");
@@ -12,7 +26,7 @@ $(window).resize(function () {
 
 $(document).scroll(function(){
 
-    if($(window).scrollTop() > 550){ 
+    if ($(window).scrollTop() > 550){ 
         colW = $(".col-1-6").css("width")
         $(".sideNav").css("width",colW);
         $(".sideNav").addClass("fix");

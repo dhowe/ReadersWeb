@@ -977,6 +977,12 @@ img.greyborder{
 
 }
 
+@media only screen and (min-height: 900px) {
+#installationNav {
+    min-height: 700px;
+}
+
+}
 /*Small Devices Tablet 768-992*/
 @media only screen and (max-width: 992px) {
 .content{
